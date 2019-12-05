@@ -56,7 +56,7 @@ const doesArrayHavePairs2 = (array1, array2) => {
 
 doesArrayHavePairs2(array1, array2)
 
-// This function has a time complexity of O(n) and a space complexity of O(n) so it is a Linear Time function
+// This function has a time complexity of O(n) and a space complexity of O(1) so it is a Linear Time function and a constant time space complexity
 
 function doesArrayHavePairs3 = (array1, array2) => {
   array1.some( item => array2.includes(item))
