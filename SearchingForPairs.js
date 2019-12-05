@@ -58,3 +58,9 @@ doesArrayHavePairs2(array1, array2)
 
 // This function has a time complexity of O(n) and a space complexity of O(n) so it is a Linear Time function
 
+function doesArrayHavePairs3 = (array1, array2) => {
+  array1.some( item => array2.includes(item))
+}
+};
+
+doesArrayHavePairs3(array1, array2)
